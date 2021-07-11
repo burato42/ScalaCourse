@@ -9,7 +9,7 @@ object ExceptionsFP extends App {
   println(potentialFailure) // Failure(java.lang.RuntimeException: Sorry, not your day)
 
   val anotherPotentialFailure = Try {
-    // код, содержащий исключения
+    // код, содержащий исключени
   }
   println(potentialFailure.isSuccess)
 
